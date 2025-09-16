@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Carátula - Trabajo Práctico Streaming de Videojuegos</title>
+    <style>
+      body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial; margin:24px; background:#fff; color:#111; line-height:1.5; }
+      header { margin-bottom:18px; }
+      h1,h2,h3 { margin:6px 0; }
+      hr { margin:12px 0; }
+      section { margin-top:18px; }
+      .imagenes img { margin:6px; max-width:48%; height:auto; display:inline-block; }
+      .video-wrap { margin-top:12px; }
+      .hint { font-size:13px; color:#555; margin-top:8px; }
+      @media(min-width:900px){ .imagenes img { max-width:23%; } }
+    </style>
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>Universidad: U.A.D.E.R.</h1>
+      <h2>Facultad: Facultad de Ciencia y Tecnologia.</h2>
+      <h2>Carrera: Analista en Sistemas - Licenciatura en Sistemas de Informacion.</h2>
+      <h2>Cátedra: Fundamentos de Computacion.</h2>
+      <hr>
+      <h1>Trabajo Práctico: Streaming de Videojuegos.</h1>
+      <p><b>Profesores:</b> Ismael Cassi, Paolo Orundés Cardinali.</p>
+      <p><b>Integrantes del Grupo:</b> Rojas Laureano, Piacenza Tomás, Franco Julian y Sir Alan.</p>
+      <p><b>Comisión:</b> Miercoles 18hs.</p>
+      <p><b>Fecha de Entrega:</b> 31/10/2025.</p>
+      <p><b>Año Lectivo:</b> 2025.</p>
+    </header>
+
+    
+    <section>
+      <h2>Juego seleccionado: Counter Strike Global Offensive (CS:GO)</h2>
+      <p><b>Descripción:</b> Counter-Strike: Global Offensive es un shooter táctico en primera persona desarrollado por Valve. 
+      Dos equipos (Terroristas y Antiterroristas) se enfrentan por rondas con objetivos como plantar o desactivar bombas, 
+	rescatar rehenes o eliminar al equipo rival.</p>
+
+      <h3>Requerimientos mínimos</h3>
+      <ul>
+        <li>Sistema operativo: Windows 7 / Vista / XP</li>
+        <li>Procesador: Intel Core 2 Duo E6600 / AMD Phenom X3 8750</li>
+        <li>Memoria: 2 GB RAM</li>
+        <li>Gráficos: 256 MB compatible con DirectX 9 y Pixel Shader 3.0</li>
+        <li>Almacenamiento: 15 GB disponibles</li>
+      </ul>
+
+      <h3>Requerimientos recomendados</h3>
+      <ul>
+        <li>Sistema operativo: Windows 10/11</li>
+        <li>Procesador: Intel Core i3 o superior</li>
+        <li>Memoria: 4 GB RAM (8 GB recomendado)</li>
+        <li>Gráficos: GPU moderna con 1 GB VRAM o más</li>
+        <li>Almacenamiento: 15–30 GB disponibles</li>
+      </ul>
+    </section>
+
+    <!-- === LUGAR PARA 4 IMÁGENES (.jpg) === -->
+    <section>
+      <h3>Imágenes del juego</h3>
+      <div class="imagenes">
+  
+        <img src="/home/alan/Escritorio/Primer Proyecto/Imagen CSGO 1.jpeg">
+        <img src="/home/alan/Escritorio/Primer Proyecto/Imagen CSGO 2.jpeg">
+        <img src="/home/alan/Escritorio/Primer Proyecto/Imagen CSGO 3.jpeg">
+
+      </div>
+    </section>
+
+    <!-- === BLOQUE PARA INSERTAR VIDEO === -->
+    <section id="video">
+      <h3>Video de demostración</h3>
+      
+      <!--
+        CAMBIA LA RUTA EN <source src="..."> POR LA UBICACIÓN REAL DE TU VIDEO.
+        Ejemplos:
+          - Archivo en la misma carpeta: src="mi_video.mp4"
+          - Archivo en subcarpeta: src="video/Un minuto de cs_go a lo pro _D.mp4"
+      -->
+      <div class="video-wrap">
+        <video id="csgo-video" controls width="960" poster="images/poster.jpg">
+          <source src="/home/alan/Escritorio/Primer Proyecto/VideoCSGO.mp4" type="video/mp4">
+        </video>
+        
+      </div>
+    </section>
+
+    <!-- === FOOTER / NOTAS === -->
+    <section>
+      <hr>
+      
+    </section>
+  </body>
+</html>
